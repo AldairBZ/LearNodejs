@@ -13,7 +13,7 @@ function mostrar1(nombre,edad){
     return(`el nombre es ${nombre}, y edad ${edad}`)
 }
 //funciones de flechas sin return y con solo una entrega (moderna)
-const mostrar2 =(nombre,edad)=>
+const mostrar1 =(nombre,edad)=>
 `el nombre es ${nombre}, y edad ${edad}`
 
 
@@ -25,3 +25,11 @@ const mostrar2 =(nombre,edad)=>{
 }
 
 console.log(mostrar2("Juan", 30 ))
+
+//la misma xd
+
+const mostrar2 = (nombre, edad) => {
+    `el nombre es ${nombre}, y edad ${edad}`;
+};
+
+console.log(mostrar2("Juan", 30)); // undefined
