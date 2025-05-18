@@ -1,3 +1,5 @@
+//cls = BORRAR TERMINAL
+
 //objeto
 let nombre ="Frank"
 console.log(nombre)
